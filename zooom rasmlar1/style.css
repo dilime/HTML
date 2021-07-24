@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #D9DCE1;
+	font-size: 20px;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+.image {
+	display: inline-block;
+	text-align:center;
+	width: 33%;
+	float: left;
+}
+figure {
+	overflow: hidden;
+	margin: 0 10px;
+}
+h3 {
+	color: #000;
+	margin-top: 40px;
+}
+p {
+	padding: 0 10px;
+}
+.image img {
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.image #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.image #zoom-In figure:hover img {
+	transform: scale(1.5);
+}
+
+
+
+
+
